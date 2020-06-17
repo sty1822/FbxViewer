@@ -45,3 +45,11 @@ Fbx SDK를 Wrap한 dll을 통해 Fbx 파일을 로딩합니다.
   >     public void Export(string name, string filename);
   >     
 
+
+  #### GLSL
+  >   ###### version 430 문법을 사용합니다.
+  >     Diffuse.vs / Diffuse.fs
+  >     Model.vs / Model.fs
+  >       animated Subroutine을 적용하여 외부(project)에서 animation 여부에 루틴을 선택할 수 있습니다.
+
+  #### VBO
