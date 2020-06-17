@@ -3,7 +3,7 @@ Fbx 모델 파일을 읽어와 창에 렌더링하는 프로젝트입니다.
 
 
 
-#### 외부 참조 라이브러리
+> #### 외부 참조 라이브러리
 
   ###### FreeImage.dll / FreeImageNet.dll
     이미지 파일(png, tga, jpg)을 읽어 Bitmap으로 변환시킬 때 사용합니다.
