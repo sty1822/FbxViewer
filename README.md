@@ -7,9 +7,12 @@ Fbx 모델 파일을 읽어와 창에 렌더링하는 프로젝트입니다.
   > ##### GLSL 연결 - 완료
   > ##### FBX 데이터 파싱 - 완료
   > ##### Model Data 구현 - 완료
-  >    > Bone
-  >    > Subset
-  >    > Material
+  >     KeyFrame
+  >     Bone
+  >     Animation
+  >     Mesh
+  >     Subset
+  >     Material
   >
   > ##### FBX -> Json - 완료
   >     Json을 거치지 않고 다이렉트로 데이터 설정을 할까 고민중
