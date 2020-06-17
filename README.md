@@ -1,5 +1,6 @@
 ## FbxViewer
-Fbx 모델 파일을 읽어와 창에 렌더링하는 프로젝트입니다.
+Fbx SDK를 Wrap한 dll을 통해 Fbx 파일을 로딩합니다.
+파싱된 데이터는 Model 데이터로 변환하여 OpenTK를 통해 렌더링 됩니다.
 
 
   #### 제작중
