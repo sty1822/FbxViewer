@@ -1,7 +1,7 @@
 ## FbxViewer
 Fbx 모델 파일을 읽어와 창에 렌더링하는 프로젝트입니다.
 
-
+----------
 
   #### 외부 참조 라이브러리
   >
@@ -19,4 +19,10 @@ Fbx 모델 파일을 읽어와 창에 렌더링하는 프로젝트입니다.
   >     창을 Docking할 수 있는 컨트롤을 제공합니다.
   >
   >   ###### CliFbx.dll
+  >     자체 제작 dll입니다.
+  >     FBX SDK가 C++ 전용이라 c++/cli로 wrapper(dll)를 제작하였습니다.
+  >     ```C#
+  >     public bool Import(string filename);
+  >     public void Export(string name, string filename);
+  >     ```
 
