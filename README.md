@@ -49,7 +49,19 @@ Fbx SDK를 Wrap한 dll을 통해 Fbx 파일을 로딩합니다.
   #### GLSL
   >   ###### version 430 문법을 사용합니다.
   >     Diffuse.vs / Diffuse.fs
+  >
   >     Model.vs / Model.fs
   >       animated Subroutine을 적용하여 외부(project)에서 animation 여부에 루틴을 선택할 수 있습니다.
+  >
+  >     Outline.vs / Outline.fs
+  >       모델의 외곽선을 렌더링합니다.
+  >
+  >     Picking.vs / Picking.fs
+  >       각 GameObject의 유일키를 이용하여 픽셀단위의 피킹을 가능하게 만들 수 있습니다.
+  >
+  >     Shadow.vs / Shadow.fs
+  >       평면 그림자
 
   #### VBO
+  >
+  > 
